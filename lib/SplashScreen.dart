@@ -23,7 +23,7 @@ class _OnBoardingState extends State<OnBoarding> {
   ];
   Color white = Color.fromARGB(255, 250, 247, 56);
   PageController pageController = PageController(initialPage: 0);
-  int currentpage = 2;
+  int currentpage = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -65,10 +65,13 @@ class _OnBoardingState extends State<OnBoarding> {
                           onboarding[index]["image"],
                         ),
                       ),
-                      const Text(
-                        "Without much worry just manage things as easy as piece of cake",
-                        style: TextStyle(fontSize: 25),
-                        textAlign: TextAlign.center,
+                      Padding(
+                        padding: const EdgeInsets.only(top: 50),
+                        child: const Text(
+                          "Without much worry just manage things as easy as piece of cake",
+                          style: TextStyle(fontSize: 25),
+                          textAlign: TextAlign.center,
+                        ),
                       ),
                     ],
                   ),
