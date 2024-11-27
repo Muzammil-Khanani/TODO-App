@@ -18,7 +18,7 @@ class _OnBoardingState extends State<OnBoarding> {
       "image": "assets/images/table.png",
     },
     {
-      "image": "assets/images/Work.png",
+      "image": "assets/images/15158927.png",
     }
   ];
   Color white = Color.fromARGB(255, 250, 247, 56);
